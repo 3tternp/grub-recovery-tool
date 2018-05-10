@@ -10,5 +10,4 @@ after completion of the recovery process you have to remove your bootable device
 
 There you get your grubloader 
 
-
-
+Successfully Tested on Kali Linux (2018.2) and Ubunu (18.04 LTS)
