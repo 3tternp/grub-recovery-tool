@@ -6,7 +6,10 @@ https://github.com/3tternp/grub-recovery-tool/
 clone the link to your Desktop as
 git clone https://github.com/3tternp/grub-recovery-tool/
 
-it will show you two OS 1. ubuntu and 2. Kali Linux
-choose OS by entering the number 1 or 2 as per your Live OS 
+it will automatically detect your OS  and run the grub recovery command automatically 
+after completion of the recovery process you have to remove your bootable device and reboot your system 
 
-once the recovery is done and it automatically reboot your system and you will get your Hidden grub back 
+There you get your grubloader 
+
+
+
