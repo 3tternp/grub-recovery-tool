@@ -13,14 +13,14 @@ echo -e "
  
 
 eax=$(cat /etc/os-release)
-if [[ $eax = *"Kali"* ]]; then
+if [[ $eax = *"KALI"* ]]; then
         echo "[+] kali OS detected"
 	sudo grub-install /dev/sda
 	sudo update-grub
 	echo -e "\e[0;36;32m you have successfully recover your system grub"
 	echo -e "\e[0;36;33m Now reboot your system by removing bootable device and check your grub"
 	exit
-elif [[ $eax = *"Ubuntu"* ]]
+elif [[ $eax = *"UBUNTU"* ]]
 then
         echo "[+] Ubuntu OS detected"
 	sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
